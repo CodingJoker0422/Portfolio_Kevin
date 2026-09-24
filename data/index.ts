@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,21 +71,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Relias Health Application Platform",
+    title: "Application Platform",
     des: "Designing and delivering high-performance healthcare applications that support clinical workflows and organizational success.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/ts.svg", "/next.svg", "/tail.svg", "/c.svg"],
-    link: "https://www.linkedin.com/in/kevin-truong-514b062/",
-    linkTitle: "Relias Health",
   },
   {
     id: 2,
-    title: "EveryUSB Internal & Customer Tools",
+    title: "Customer Tools",
     des: "Built internal platforms and customer-facing tools for a USB commerce business, streamlining orders for customers and teams.",
     img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/dock.svg"],
-    link: "https://www.linkedin.com/in/kevin-truong-514b062/",
-    linkTitle: "EveryUSB",
   },
   {
     id: 3,
@@ -94,8 +89,6 @@ export const projects = [
     des: "Delivered enterprise-grade software across AI, healthcare, finance, industrial, crypto, and emerging tech at Seattle Software Developers.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/ts.svg", "/next.svg", "/tail.svg", "/c.svg"],
-    link: "https://www.linkedin.com/in/kevin-truong-514b062/",
-    linkTitle: "Seattle Software",
   },
   {
     id: 4,
@@ -103,8 +96,6 @@ export const projects = [
     des: "Helped organizations simplify HR administration, optimize benefits, and process payroll with secure, reliable web applications.",
     img: "/p4.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/dock.svg"],
-    link: "https://www.linkedin.com/in/kevin-truong-514b062/",
-    linkTitle: "RealTime Services",
   },
 ];
 

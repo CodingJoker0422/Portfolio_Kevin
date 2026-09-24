@@ -1,6 +1,6 @@
 # Kevin Truong — Portfolio
 
-Modern, minimal portfolio for Kevin Truong, Senior Software Engineer based in Palm Bay, FL.
+Modern, minimal portfolio for Kevin Truong, Senior Software Engineer.
 
 ## Run locally
 
