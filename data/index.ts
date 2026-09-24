@@ -236,6 +236,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/git.svg",
-    link: "mailto:kevin.truong.19931018@gmail.com",
+    link: "mailto:kevintruon8876@outlook.com",
   },
 ];
