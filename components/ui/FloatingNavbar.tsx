@@ -75,6 +75,20 @@ export const FloatingNav = ({
           <Link
             key={`link=${idx}`}
             href={navItem.link}
+            onClick={(e) => {
+              e.preventDefault();
+              if (navItem.link === "#home") {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+                return;
+              }
+
+              const target = document.querySelector<HTMLElement>(navItem.link);
+              if (!target) return;
+
+              const top =
+                target.getBoundingClientRect().top + window.scrollY - 20;
+              window.scrollTo({ top, behavior: "smooth" });
+            }}
             className={cn(
               "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
